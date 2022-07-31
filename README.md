@@ -26,14 +26,22 @@ git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-Deep
 cd COVID-19-Genome-Sequencing-with-DeepGRU
 jupyter bio_analysis_matcher.ipynb
 ```
+When inside the notebook please note the line 2 in block 3 and 
+
 
 Once in the environment just press run in the notebook. 
+
+
 
 Most of the code will be readable, although some concepts will likely be needing additional reading such as one-hot encoding, genome sequencing, tensors, etc. Please do not take most of the results to heart as some of the results may be overfitting and require additional tweaking to result in functional results in my opinion. 
 
 ## How to change the training data?
 
-By old design, I used the MLDSP_GUI_DATA folder to control the data. The independent Datasets folder is a default folder with a lot of datasets originating from the original dataset source. The Tests folder is a folder containing the data as organized by Randhawa's paper with associated genome data. For additional details, please refer to the final report pdf. Some results in that report were created by altering the code in a non-documented fashion, but it could possibly be replicable if a user can figure it out. 
+By old design, I used the MLDSP_GUI_DATA folder to control the data flow. The independent `Datasets` folder is a default folder with a lot of datasets originating from the original dataset source from DeepGRU. 
+
+The `Tests` folder is a folder containing the data as organized by Randhawa's paper with associated genome data. The data has already been organized as closely as possible to the original paper and ready to run if the user has already set this. 
+
+For additional details, please refer to the final report pdf. Some results in that report were created by altering the code in a non-documented fashion, but it could possibly be replicable if a user can figure it out. 
 
 ## Citations and notes
 
