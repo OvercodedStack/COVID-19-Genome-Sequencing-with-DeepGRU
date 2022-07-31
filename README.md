@@ -21,8 +21,8 @@ Basically if you follow the instructions for the original (DeepGRU)[https://gith
 
 Open a Conda or Python Environment with the respective dependencies installed. Procced with these instructions afterwards: 
 
-`git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-DeepGRU
-cd COVID-19-Genome-Sequencing-with-DeepGRU
+`git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-DeepGRU \n
+cd COVID-19-Genome-Sequencing-with-DeepGRU\n
 jupyter bio_analysis_matcher.ipynb`
 
 Once in the environment just press run in the notebook. 
