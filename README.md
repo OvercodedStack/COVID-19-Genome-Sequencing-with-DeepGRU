@@ -21,16 +21,21 @@ Basically if you follow the instructions for the original (DeepGRU)[https://gith
 
 Open a Conda or Python Environment with the respective dependencies installed. Procced with these instructions afterwards: 
 
-`git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-DeepGRU`
-`cd COVID-19-Genome-Sequencing-with-DeepGRU`
-`jupyter bio_analysis_matcher.ipynb`
+`git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-DeepGRU
+cd COVID-19-Genome-Sequencing-with-DeepGRU
+jupyter bio_analysis_matcher.ipynb`
 
-Once in the environment just press run in the notebook.
+Once in the environment just press run in the notebook. 
+
+Most of the code will be readable, although some concepts will likely be needing additional reading such as one-hot encoding, genome sequencing, tensors, etc. Please do not take most of the results to heart as some of the results may be overfitting and require additional tweaking to result in functional results in my opinion. 
 
 ## How to change the training data?
 
-By old design, I used the MLDSP_GUI_DATA folder to control the data. The independent Datasets folder is a default folder with a lot of datasets originating from the original dataset source. The Tests folder is a folder containing the 
+By old design, I used the MLDSP_GUI_DATA folder to control the data. The independent Datasets folder is a default folder with a lot of datasets originating from the original dataset source. The Tests folder is a folder containing the data as organized by Randhawa's paper with associated genome data. For additional details, please refer to the final report pdf. Some results in that report were created by altering the code in a non-documented fashion, but it could possibly be replicable if a user can figure it out. 
 
+## Citations and notes
+
+This work is not under any specified grant or paper. This was simply a course assignment final project. Users may be encouraged to utilize this code for other applications but please do not reutilize this code for taking the course. I encourage users to find other techniques for implementing rather that just this project. After all, the core application of this code has almost past its importance at this point in time with newer code-bases and applications. 
 
 ## Licenses 
 
