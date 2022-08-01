@@ -26,12 +26,10 @@ git clone https://github.com/OvercodedStack/COVID-19-Genome-Sequencing-with-Deep
 cd COVID-19-Genome-Sequencing-with-DeepGRU
 jupyter bio_analysis_matcher.ipynb
 ```
-When inside the notebook please note the line 2 in block 3 and 
+When inside the notebook please note the line 6 in block 3 and line 9 in block 4; which may cause an error if not set to the proper directory. 
 
 
 Once in the environment just press run in the notebook. 
-
-
 
 Most of the code will be readable, although some concepts will likely be needing additional reading such as one-hot encoding, genome sequencing, tensors, etc. Please do not take most of the results to heart as some of the results may be overfitting and require additional tweaking to result in functional results in my opinion. 
 
@@ -49,8 +47,8 @@ This work is not under any specified grant or paper. This was simply a course as
 
 ## Licenses 
 
-The code is provided as-is under an MIT license, which was part of DeepGRU as well. Please feel free to fork and follow code as you wish 
+The code is provided as-is under an MIT license, which was part of DeepGRU as well. Please feel free to fork and follow code as you wish. 
 
 ## Credits
 
-Credit to Mehran Maghoumi for DeepGRU, Austin Mathews for some early ideas on getting this to run. I wrote most of the Bio_analysis_matcher.ipynb file and altered some files to get the code to work. 
+Credit to Mehran Maghoumi for DeepGRU, Austin Mathews for some early ideas on getting this to run. I wrote most of the Bio_analysis_matcher.ipynb file and altered some files to get the code to work. The data coming for the genomes is sourced from the NCBI website. Please visit the NCBI to adquire the most recent data for genomes at https://www.ncbi.nlm.nih.gov/
